@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "ritika626@gmail.com",
+      "password": "$2a$10$GvfZ0sLSfWmHAbV/VYOLcufqrsQYAOowVCFuqYbW73Q6i2UN26U/m",
+      "id": 1
+    },
+    {
+      "email": "Ritika3@gmail.com",
+      "password": "$2a$10$UgkRX1iAdTW3Me/5o2Ja8.Jie5VI59yDaxfo0XX1U5QDamPzrVDFu",
+      "id": 2
+    },
+    {
+      "email": "Ritika99@gmail.com",
+      "password": "$2a$10$bbpqA8v57LgipnN.P2RJFOoY5zUXk8Pa22M5s2ajaIey/L5QRbW1e",
+      "id": 3
+    }
+  ]
+}
