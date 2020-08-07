@@ -2,9 +2,9 @@ body {
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+  background-color: rgb(27, 27, 70);
 }
 .body {
-  background-color: rgb(27, 27, 70);
   height: 100vh;
   /* margin-left: auto;
   margin-right: auto; */

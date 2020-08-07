@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Redirect, Link } from "react-router-dom";
+import { Redirect, Link, useHistory } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import Adminpage from "../adminPage";
 import "../login.css";
@@ -10,6 +10,7 @@ const LandingPage = (props) => {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const axios = require("axios");
+  const history = useHistory();
 
   const inputChangeName = (e) => {
     setName(e.target.value);
@@ -50,6 +51,10 @@ const LandingPage = (props) => {
       .finally(function () {});
   };
 
+  const signupbtn = () => {
+    history.push("/signup");
+  };
+
   return (
     <div className="body">
       <div className="login-box">
@@ -73,11 +78,13 @@ const LandingPage = (props) => {
         <Button variant="" className="login-button" onClick={submitLogin}>
           Log In
         </Button>
-        or
-        <Button variant="" className="login-button">
-          {/* <Link to="/login/signup">Sign Up</Link> */}
+        <p className="text-center">or</p>
+        <Button variant="" className="login-button" onClick={signupbtn}>
           signup
         </Button>
+        {/* <Link to="/signup" className="btn login-button ">
+          Sign Up
+        </Link> */}
       </div>
     </div>
   );

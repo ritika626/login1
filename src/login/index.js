@@ -19,7 +19,7 @@ const Login = () => {
             path="/adminpage"
             render={(props) => <AdminPage {...props} />}
           />
-          {/* <Route path="/signup" render={(props) => <SignUp {...props} />} /> */}
+          <Route path="/signup" render={(props) => <SignUp {...props} />} />
         </Switch>
       </BrowserRouter>
     </div>

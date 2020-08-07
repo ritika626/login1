@@ -14,6 +14,46 @@
       "email": "Ritika99@gmail.com",
       "password": "$2a$10$bbpqA8v57LgipnN.P2RJFOoY5zUXk8Pa22M5s2ajaIey/L5QRbW1e",
       "id": 3
+    },
+    {
+      "email": "ritika@gmail.com",
+      "password": "$2a$10$m0lpjWd4e2XdsHH5PObucOMiwNTGbYOkTAI90UY3IBKgZy0nQ/m2q",
+      "firstname": "dsfdaf",
+      "lastname": "fdfdf",
+      "contactnumber": "425364",
+      "id": 4
+    },
+    {
+      "email": "ritika5@gmail.com",
+      "password": "$2a$10$cv77uurwFVGGWn0QkQ6h2./9RQ/kvnYJyOmJK9wbDQE5vVefexrNG",
+      "firstname": "ritika sharma",
+      "lastname": "sharma",
+      "contactnumber": "9894555",
+      "id": 5
+    },
+    {
+      "email": "fxgfgfggx@gmail.com",
+      "password": "$2a$10$1i2Yu1ND0TLvCPr/WkfcyuhC.W3UolH8e3TF.TUSf./YpMG5CktSS",
+      "firstname": "sdfgdfh",
+      "lastname": "gfxdfhdgh",
+      "contactnumber": "563643758",
+      "id": 6
+    },
+    {
+      "email": "dsabjhdba@gmail.com",
+      "password": "$2a$10$6tNQh7G2D8yZkFvDsyMH8.p2ecC6pyRW4RjR5jORhkmXYtJ37bflS",
+      "firstname": "fhgsdhfh",
+      "lastname": "ghgfhf",
+      "contactnumber": "654767",
+      "id": 7
+    },
+    {
+      "email": "harshit@gmail.com",
+      "password": "$2a$10$Zz5SLkM7omHfxTXc88qrKuLKjyIFcU3d/zv8mT/5rYiNtxwiywU.m",
+      "firstname": "harshit",
+      "lastname": "sharma",
+      "contactnumber": "7856347534",
+      "id": 8
     }
   ]
 }
